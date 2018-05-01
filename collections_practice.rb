@@ -34,15 +34,22 @@ def find_a(str_arr)
 end
 
 def sum_array(int_arr)
+<<<<<<< HEAD
   int_arr.reduce(:+)
+=======
+  int_arr.map{|n| n+=n}
+>>>>>>> 6fa2339fd23c337f290714039357df0446c6292d
 end
 
 def add_s(str_arr)
 
+<<<<<<< HEAD
   str_arr.each_with_index.collect do |thing, index|
     index != 1 ? thing << "s" : thing
   end
   #str_arr.each do |meh|
   #  meh.insert meh.length, "s"
   #end
+=======
+>>>>>>> 6fa2339fd23c337f290714039357df0446c6292d
 end
